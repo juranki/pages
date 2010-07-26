@@ -1,4 +1,11 @@
 {
     "name": "CouchApp Pages",
-    "description": "A Simple CouchApp Wiki"
+    "description": "A Simple CouchApp Wiki",
+
+    "permissions": {
+        "editor": [
+            {"role":"pages_editor", "allow":true},
+            {"role": "_admin", "allow":true}
+        ]
+    }
 }
